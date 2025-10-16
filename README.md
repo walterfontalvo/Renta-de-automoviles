@@ -1,6 +1,6 @@
 # Renta de Automóviles - Sitio Web
 
-![Vista previa del sitio](assets/images/auto1.jpg)
+![Vista previa del sitio](assets/images/screen-page.PNG)
 
 ## Descripción
 Sitio web profesional para empresa de renta de vehículos, desarrollado con tecnologías web modernas. La plataforma permite a los usuarios explorar vehículos disponibles, conocer los servicios de mantenimiento y contacto directo con la empresa.
@@ -22,7 +22,7 @@ Puedes ver una vista previa del proyecto en: [Ver Demo](https://rentadeautos.fre
 - JavaScript
 - Bootstrap Icons
 
-## 🚀 Estructura del proyecto
+## Estructura del proyecto
 ```
 Actividad3/
 ├── index.html          # Página principal
@@ -37,20 +37,20 @@ Actividad3/
 └── assets/             # Imágenes y recursos
 ```
 
-## 📋 Instalación
+## Instalación
 1. Clona el repositorio:
    ```bash
    git clone [URL_DEL_REPOSITORIO]
    ```
 2. Abre el archivo `index.html` en tu navegador web.
 
-## 📄 Licencia
+## Licencia
 Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
 
-## 👥 Contacto
-- ✉️ [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com)
-- 🌐 [www.tusitio.com](https://www.tusitio.com)
+## Contacto
+- [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com)
+- [www.tusitio.com](https://www.tusitio.com)
 
 ---
 
-Desarrollado con ❤️ por [Tu Nomre]
+Desarrollado con ❤️ por walter fontalvo
