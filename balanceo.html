@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Servicio profesional de balanceo de ruedas para un andar suave y seguro. Evita desgastes prematuros en tus neumáticos." />
+    <meta name="author" content="" />
+    <title>Balanceo de Ruedas | Renta de Automóviles</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        .feature {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 4rem;
+            height: 4rem;
+            font-size: 2rem;
+            border-radius: 0.5rem;
+        }
+        .service-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+        }
+        .bg-service {
+            background-color: #f8f9fa;
+        }
+        .step {
+            position: relative;
+            padding-left: 4rem;
+            margin-bottom: 2.5rem;
+        }
+        .step-number {
+            position: absolute;
+            left: 0;
+            width: 3rem;
+            height: 3rem;
+            background-color: #0d6efd;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.25rem;
+        }
+        .step-content {
+            padding-top: 0.5rem;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html">Renta de Automóviles</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="autos.html">Autos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                <li><a class="dropdown-item" href="mantenimiento.html">Mantenimiento</a></li>
+                                <li><a class="dropdown-item" href="montallantas.html">Montallantas</a></li>
+                                <li><a class="dropdown-item" href="alineacion.html">Alineación</a></li>
+                                <li><a class="dropdown-item active" href="balanceo.html">Balanceo</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Header-->
+        <header class="py-5 bg-light">
+            <div class="container px-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xxl-6">
+                        <div class="text-center my-5">
+                            <h1 class="fw-bolder mb-3">Balanceo de Ruedas Profesional</h1>
+                            <p class="lead fw-normal text-muted mb-4">Elimina las vibraciones y asegura un viaje suave con nuestro servicio de balanceo de precisión.</p>
+                            <a class="btn btn-primary btn-lg" href="#servicios">Ver Servicios</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Sección de Importancia -->
+        <section class="py-5 bg-light">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <div class="text-center">
+                            <img class="img-fluid rounded-3 shadow-lg" src="assets/images/importancia-balanceo.jpg" alt="Importancia del balanceo" style="max-height: 400px; width: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-4">
+                            <h2 class="fw-bolder mb-3">¿Por qué es importante el balanceo?</h2>
+                            <p class="lead text-muted">El balanceo adecuado de las ruedas es esencial para la seguridad y el rendimiento de tu vehículo. Conoce sus beneficios:</p>
+                        </div>
+                        
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 p-3 me-4">
+                                    <i class="bi bi-shield-check"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="h5 mb-1">Mayor Seguridad</h3>
+                                <p class="mb-0 text-muted">Mejora la estabilidad y el control del vehículo, especialmente a altas velocidades.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 p-3 me-4">
+                                    <i class="bi bi-cash-stack"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="h5 mb-1">Ahorro a Largo Plazo</h3>
+                                <p class="mb-0 text-muted">Prolonga la vida útil de tus neumáticos y evita desgastes prematuros.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 p-3 me-4">
+                                    <i class="bi bi-speedometer2"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="h5 mb-1">Mejor Rendimiento</h3>
+                                <p class="mb-0 text-muted">Proporciona una conducción más suave y cómoda, reduciendo la fatiga al volante.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios de Balanceo -->
+        <section class="py-5 bg-service" id="servicios">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Nuestros Servicios de Balanceo</h2>
+                    <p class="lead fw-normal text-muted mb-0">Ofrecemos diferentes tipos de balanceo según las necesidades de tu vehículo</p>
+                </div>
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0 service-card">
+                            <div class="card-body p-4">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-gear"></i></div>
+                                <h3 class="h5 card-title mb-3">Balanceo Estático</h3>
+                                <p class="card-text">Ideal para vehículos con problemas de vibración a bajas velocidades.</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Para vibraciones leves</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Balanceo en un solo plano</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Proceso rápido y efectivo</li>
+                                </ul>
+                                <a class="btn btn-outline-primary w-100 mt-3" href="#contacto">Solicitar Servicio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0 service-card">
+                            <div class="card-body p-4">
+                                <div class="feature bg-warning bg-gradient text-white rounded-3 mb-3"><i class="bi bi-gear-wide"></i></div>
+                                <h3 class="h5 card-title mb-3">Balanceo Dinámico</h3>
+                                <p class="card-text">Técnica avanzada para eliminar vibraciones a cualquier velocidad.</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Para todo tipo de vehículos</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Balanceo en dos planos</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Mayor precisión</li>
+                                </ul>
+                                <a class="btn btn-outline-primary w-100 mt-3" href="#contacto">Solicitar Servicio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0 service-card">
+                            <div class="card-body p-4">
+                                <div class="feature bg-success bg-gradient text-white rounded-3 mb-3"><i class="bi bi-truck"></i></div>
+                                <h3 class="h5 card-title mb-3">Balanceo para Camionetas</h3>
+                                <p class="card-text">Servicio especializado para vehículos pesados y camionetas 4x4.</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Para vehículos pesados</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Equipos especializados</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Mayor capacidad de carga</li>
+                                </ul>
+                                <a class="btn btn-outline-primary w-100 mt-3" href="#contacto">Solicitar Servicio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proceso de Balanceo -->
+        <section class="py-5">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Nuestro Proceso de Balanceo</h2>
+                    <p class="lead fw-normal text-muted">Pasos para un balanceo profesional</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3 class="h5">Inspección Inicial</h3>
+                                <p>Revisión visual de los neumáticos y ruedas para detectar daños o desgastes irregulares.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3 class="h5">Montaje en la Máquina</h3>
+                                <p>Colocación precisa de la rueda en la máquina balanceadora computarizada.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3 class="h5">Análisis Computarizado</h3>
+                                <p>La máquina detecta los puntos de desequilibrio y calcula el peso necesario para corregirlos.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h3 class="h5">Aplicación de Pesos</h3>
+                                <p>Colocación de contrapesos en los puntos exactos para lograr el equilibrio perfecto.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h3 class="h5">Verificación Final</h3>
+                                <p>Prueba final para asegurar que la rueda esté perfectamente balanceada.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="py-5 bg-dark text-white" id="contacto">
+            <div class="container px-5 my-5">
+                <div class="text-center">
+                    <h2 class="fw-bolder mb-4">¿Listo para un viaje más suave?</h2>
+                    <p class="lead fw-normal text-white-50 mb-4">Agenda tu servicio de balanceo hoy mismo</p>
+                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="contacto.html">Solicitar Cita</a>
+                    <a class="btn btn-outline-light btn-lg px-4" href="tel:+573001234567">Llamar Ahora</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer-->
+    <footer class="bg-dark py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Renta de Automóviles 2025</div></div>
+                <div class="col-auto">
+                    <a class="link-light small" href="#!">Política de Privacidad</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="#!">Términos y Condiciones</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="contacto.html">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
