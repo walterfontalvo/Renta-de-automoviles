@@ -1,6 +1,6 @@
 # Renta de Automóviles - Sitio Web
 
-![Vista previa del sitio](assets/images/screens-page.PNG)
+![Vista previa del sitio](assets/images/screenshot.PNG)
 
 ## Descripción
 Sitio web profesional para empresa de renta de vehículos, desarrollado con tecnologías web modernas. La plataforma permite a los usuarios explorar vehículos disponibles, conocer los servicios de mantenimiento y contacto directo con la empresa.
