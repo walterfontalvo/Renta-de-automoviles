@@ -1,6 +1,6 @@
 # Renta de Automóviles - Sitio Web
 
-![Vista previa del sitio](assets/images/screen-page.PNG)
+![Vista previa del sitio](assets/images/screens-page.PNG)
 
 ## Descripción
 Sitio web profesional para empresa de renta de vehículos, desarrollado con tecnologías web modernas. La plataforma permite a los usuarios explorar vehículos disponibles, conocer los servicios de mantenimiento y contacto directo con la empresa.
@@ -40,17 +40,12 @@ Actividad3/
 ## Instalación
 1. Clona el repositorio:
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
+   git clone https://github.com/walterfontalvo/Renta-de-automoviles.git
    ```
 2. Abre el archivo `index.html` en tu navegador web.
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
 
-## Contacto
-- [wfontalvo@gmail.com](mailto:wfontalvo@gmail.com)
-- [www.tusitio.com](https://www.tusitio.com)
-
 ---
 
-Desarrollado con ❤️ por walter fontalvo
